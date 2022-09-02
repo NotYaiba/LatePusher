@@ -24,8 +24,8 @@ done
 }
 
 if [ $# -eq 1 ] 
-then
-    echo $1
-else
-    echo "invalid argument please pass only one argument "
+    then
+        echo $1
+    else
+        echo "invalid argument please pass only one argument "
 fi
