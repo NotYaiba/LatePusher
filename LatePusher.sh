@@ -23,8 +23,9 @@ do
 done
 }
 
-if [ "$#" -ne 1 ] || ! [ -d "$1" ]; then
-  echo "Usage: $0 DIRECTORY" >&2
-  exit 1
+if [ $# -eq 1 ] 
+then
+    echo $1
+else
+    echo "invalid argument please pass only one argument "
 fi
-
